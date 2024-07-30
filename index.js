@@ -27,13 +27,13 @@ function createSVG(text, textColor, shape, shapeColor) {
         shapeElement = '';
     }
 
-    const svgContent = `<?xml version="1.0" encoding="UTF-8"?>
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    const svgContent = `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
     <text x="150" y="100" font-size="40" text-anchor="middle" fill="${textColor}">${text}</text>
     ${shapeElement}
 </svg>`;
 
-    fs.writeFileSync('logo.svg', svgContent);
+    fs.writeFileSync('logo.svg', svgContent, 'utf-8');
+    console.log('Generated logo.svg');
     }
 
 // Prompt function
@@ -66,7 +66,6 @@ async function promptUser() {
     ]);
 
     createSVG(answers.text, answers.textColor, answers.shape, answers.shapeColor);
-    console.log('Generated logo.svg');
 }
 
 // Start the prompt
