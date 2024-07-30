@@ -1,0 +1,18 @@
+// Circle example
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="150" cy="100" r="80" fill="blue" /> <!-- render the shape element first -->
+    <text x="150" y="110" font-size="34" text-anchor="middle" fill="red">iii</text> <!-- render the text on top -->
+    </svg>
+
+// Square example
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <rect x="75" y="75" width="150" height ="150" fill="black" /> <!-- render the shape element first -->
+    <text x="150" y="150" font-size="34" text-anchor="middle" fill="green">PPP</text> <!-- render the text on top -->
+    </svg>
+
+
+// Triangle example
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    <polygon points ="100, 200 200,200 150,100" fill="gray" /> <!-- render the shape element first -->
+    <text x="150" y="180" font-size="34" text-anchor="middle" fill="white">OOO</text> <!-- render the text on top -->
+    </svg>
