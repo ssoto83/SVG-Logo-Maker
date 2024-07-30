@@ -1,48 +1,41 @@
 # SVG Logo Maker
 
-## User Story
-AS a freelance web developer
-I WANT to generate a simple logo for my projects
-SO THAT I don't have to pay a graphic designer
-
 ## Description
 
-The SVG Logo Maker is a Command-line application developed with Node.js and the Inquirer package, that allows users to create their custom SVG logos. The application prompts the user to enter text and choose a shape. Along with colors for both the text and shape.
+The SVG Logo Maker is a Command-line application developed with Node.js and the Inquirer package, that allows users to create their custom SVG logos. The application prompts the user to enter text and choose a shape. Along with colors for both the text and shape. After completing the prompts, an SVG file named `logo.svg` gets generated in the project directory. Open the file in a web browser or an SVG viewer.   
 
 ## Installation
 Inquirer@8.2.  
-"npm install"
-
-
-Jest  
-"npm test"
+`npm install`
 
 ## Usage
 To run the application:  
-"node index.js"
+`node index.js`
 
 ## Prompts
 * Enter desired text (up to 3 characters). 
 
-* Choose your shape (Triangle, Circle or Square).
+* Choose your shape: Triangle, Circle or Square.
 
 * Enter text color or hexadecimal code (White, black, green, red, gray, blue, yellow).  
 
-* Enter your desired shape color or hexadecimal code  (White, black, green, red, gray, blue, yellow).    
+* Enter your desired shape color or hexadecimal code  (White, black, green, red, gray, blue, yellow).      
+
+* As show below:
 
 
 ![Alt text](./assets/prompts-sample.png)
 
+## Testing
+Jest  
+`npm test`
+
 ## Reporting Issues
 If you encounter any issues with the SVG Logo Maker, please open an issue or contact ssoto@gmail.com. 
-GitHub repo link https://github.com/ssoto83/Readme-Generator.git
-
-## Contributing
-Contributions are welcome to improve the README Generator. 
+GitHub repo link https://github.com/ssoto83/SVG-Logo-Maker.git  
 
 ## License
-This project is licensed under the MIT license.
+MIT license.
 
 ## Sample Application Video
-
-https://watch.screencastify.com/v/3POLf4zWYlkSZfA5J2dR
+https://drive.google.com/file/d/1WbUkYEQcPlQSrD5aZBgZMmxUeFqJrUy1/view
