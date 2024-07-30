@@ -38,4 +38,4 @@ GitHub repo link https://github.com/ssoto83/SVG-Logo-Maker.git
 MIT license.
 
 ## Sample Application Video
-https://drive.google.com/file/d/1WbUkYEQcPlQSrD5aZBgZMmxUeFqJrUy1/view
+https://drive.google.com/file/d/1WbUkYEQcPlQSrD5aZBgZMmxUeFqJrUy1/view?usp=sharing
